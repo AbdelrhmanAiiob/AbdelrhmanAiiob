@@ -42,5 +42,5 @@ A production-ready digital content platform engineered for publishing cultural a
 ## 📊 Activity & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbdelrhmanAiiob&show_icons=true&theme=radical" alt="Abdelrhman's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdelrhmanAiiob&theme=radical&hide_border=true" alt="Abdelrhman's Streak Stats" />
 </p>
