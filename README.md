@@ -49,6 +49,60 @@ I build backend systems and the products on top of them. I take a project from t
 
 ## Featured projects
 
+### [RadioNabra](https://radionabra.com): articles and audio streaming platform
+
+> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Repository:** private, commercial client project
+
+A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
+
+- **Core:** the data layer, business logic and API endpoints in **Python and Django**.
+- **Database:** a secured **PostgreSQL** production instance with strict `.env` isolation.
+- **Deployment:** **Linux VPS** with **Gunicorn** behind an **Nginx** reverse proxy.
+- **Security and uptime:** **Cloudflare** for DNS, SSL termination and traffic filtering, keeping the platform at 99.9% uptime.
+- **Back office:** a custom `django-unfold` dashboard so the content team can publish without a developer.
+- **Front end:** the backend connected to the template layer, with responsive pages on mobile.
+
+<table>
+<tr>
+<td width="50%"><img src="assets/radionabra-home.png" alt="RadioNabra home page" /></td>
+<td width="50%"><img src="assets/radionabra-search.png" alt="RadioNabra search results" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Home page</sub></td>
+<td align="center"><sub>Search results</sub></td>
+</tr>
+</table>
+
+<br/>
+
+<br/>
+
+### Tonight: AI movie and TV discovery &nbsp;`in progress`
+
+> **Role:** Solo full-stack developer &nbsp;·&nbsp; **Status:** close to release
+
+Helps you decide what to watch tonight, by browsing or by talking to an AI assistant.
+
+- **Data:** the **TMDB** API behind Django endpoints for discovery, search and details, cached in **Redis**.
+- **AI chat:** **Groq** and **Gemini** with fallback between providers. It understands what you do not want, supports regenerate, and works in Arabic and English.
+- **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
+- **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
+
+<table>
+<tr>
+<td width="50%"><img src="assets/tonight-home.png" alt="Tonight home page" /></td>
+<td width="50%"><img src="assets/tonight-chat.png" alt="Tonight AI chat bot recommending movies" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Home page</sub></td>
+<td align="center"><sub>Roach, the AI chat bot, recommending movies</sub></td>
+</tr>
+</table>
+
+<br/>
+
+<br/>
+
 ### PlayerHub: order tracking and operations platform
 
 > **Role:** Backend and full-stack developer &nbsp;·&nbsp; **Repository:** private, built for a company
@@ -115,56 +169,6 @@ flowchart LR
 </table>
 
 <sub>The screenshots use demo data, not real orders, and the assistant answer in the screenshot is a scripted test reply.</sub>
-
-<br/>
-
-### [RadioNabra](https://radionabra.com): articles and audio streaming platform
-
-> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Repository:** private, commercial client project
-
-A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
-
-- **Core:** the data layer, business logic and API endpoints in **Python and Django**.
-- **Database:** a secured **PostgreSQL** production instance with strict `.env` isolation.
-- **Deployment:** **Linux VPS** with **Gunicorn** behind an **Nginx** reverse proxy.
-- **Security and uptime:** **Cloudflare** for DNS, SSL termination and traffic filtering, keeping the platform at 99.9% uptime.
-- **Back office:** a custom `django-unfold` dashboard so the content team can publish without a developer.
-- **Front end:** the backend connected to the template layer, with responsive pages on mobile.
-
-<table>
-<tr>
-<td width="50%"><img src="assets/radionabra-home.png" alt="RadioNabra home page" /></td>
-<td width="50%"><img src="assets/radionabra-search.png" alt="RadioNabra search results" /></td>
-</tr>
-<tr>
-<td align="center"><sub>Home page</sub></td>
-<td align="center"><sub>Search results</sub></td>
-</tr>
-</table>
-
-<br/>
-
-### Tonight: AI movie and TV discovery &nbsp;`in progress`
-
-> **Role:** Solo full-stack developer &nbsp;·&nbsp; **Status:** close to release
-
-Helps you decide what to watch tonight, by browsing or by talking to an AI assistant.
-
-- **Data:** the **TMDB** API behind Django endpoints for discovery, search and details, cached in **Redis**.
-- **AI chat:** **Groq** and **Gemini** with fallback between providers. It understands what you do not want, supports regenerate, and works in Arabic and English.
-- **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
-- **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
-
-<table>
-<tr>
-<td width="50%"><img src="assets/tonight-home.png" alt="Tonight home page" /></td>
-<td width="50%"><img src="assets/tonight-chat.png" alt="Tonight AI chat bot recommending movies" /></td>
-</tr>
-<tr>
-<td align="center"><sub>Home page</sub></td>
-<td align="center"><sub>Roach, the AI chat bot, recommending movies</sub></td>
-</tr>
-</table>
 
 <br/>
 
