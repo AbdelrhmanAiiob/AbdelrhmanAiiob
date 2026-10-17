@@ -13,7 +13,7 @@
 
 <br/>
 
-## ⚡ About me
+## About me
 
 I build backend systems and the products on top of them. I take a project from the first data model to the Linux server it runs on: the Django API, the database, the React interface, the Nginx and Cloudflare setup, and the tests that keep all of it honest.
 
@@ -24,7 +24,7 @@ I build backend systems and the products on top of them. I take a project from t
 
 <br/>
 
-## 🧰 Stack
+## Stack
 
 <div align="center">
 
@@ -47,11 +47,11 @@ I build backend systems and the products on top of them. I take a project from t
 
 <br/>
 
-## 🚀 Featured projects
+## Featured projects
 
-### 📦 PlayerHub: order tracking and operations platform
+### PlayerHub: order tracking and operations platform
 
-> **Role:** Backend and full-stack developer &nbsp;·&nbsp; **Repository:** 🔒 private, built for a company
+> **Role:** Backend and full-stack developer &nbsp;·&nbsp; **Repository:** private, built for a company
 
 A team uses it every day to follow digital-goods orders from the first message to delivery. Profit, shifts, seller performance and disputes live in one place instead of five spreadsheets and a chat app.
 
@@ -100,21 +100,27 @@ flowchart LR
 <table>
 <tr>
 <td width="50%"><img src="assets/playerhub-board.png" alt="PlayerHub order board" /></td>
-<td width="50%"><img src="assets/playerhub-dashboard.png" alt="PlayerHub team dashboard" /></td>
+<td width="50%"><img src="assets/playerhub-dashboard-dark.png" alt="PlayerHub team dashboard in the dark theme" /></td>
 </tr>
 <tr>
 <td align="center"><sub>The live order board</sub></td>
-<td align="center"><sub>Team dashboard: profit, sales and shifts</sub></td>
+<td align="center"><sub>Team dashboard in the dark theme</sub></td>
+</tr>
+<tr>
+<td colspan="2"><img src="assets/playerhub-assistant-dark.png" alt="PlayerHub AI assistant creating an order" /></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><sub>The AI assistant creating an order from a chat message, with the board updating beside it</sub></td>
 </tr>
 </table>
 
-<sub>The screenshots use demo data, not real orders.</sub>
+<sub>The screenshots use demo data, not real orders, and the assistant answer in the screenshot is a scripted test reply.</sub>
 
 <br/>
 
-### 📻 [RadioNabra](https://radionabra.com): articles and audio streaming platform
+### [RadioNabra](https://radionabra.com): articles and audio streaming platform
 
-> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Client:** Radio Hassan &nbsp;·&nbsp; **Repository:** 🔒 private, commercial client project
+> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Client:** Radio Hassan &nbsp;·&nbsp; **Repository:** private, commercial client project
 
 A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
 
@@ -125,11 +131,20 @@ A production platform for publishing cultural articles and streaming podcasts, b
 - **Back office:** a custom `django-unfold` dashboard so the content team can publish without a developer.
 - **Front end:** the backend connected to the template layer, with responsive pages on mobile.
 
-<img src="assets/radionabra-home.png" alt="RadioNabra home page" width="100%" />
+<table>
+<tr>
+<td width="50%"><img src="assets/radionabra-home.png" alt="RadioNabra home page" /></td>
+<td width="50%"><img src="assets/radionabra-search.png" alt="RadioNabra search results" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Home page</sub></td>
+<td align="center"><sub>Search results</sub></td>
+</tr>
+</table>
 
 <br/>
 
-### 🎬 Tonight: AI movie and TV discovery &nbsp;`in progress`
+### Tonight: AI movie and TV discovery &nbsp;`in progress`
 
 > **Role:** Solo full-stack developer &nbsp;·&nbsp; **Status:** close to release
 
@@ -140,11 +155,20 @@ Helps you decide what to watch tonight, by browsing or by talking to an AI assis
 - **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
 - **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
 
-<img src="assets/tonight-home.png" alt="Tonight home page" width="100%" />
+<table>
+<tr>
+<td width="50%"><img src="assets/tonight-home.png" alt="Tonight home page" /></td>
+<td width="50%"><img src="assets/tonight-chat.png" alt="Tonight AI chat bot recommending movies" /></td>
+</tr>
+<tr>
+<td align="center"><sub>Home page</sub></td>
+<td align="center"><sub>Roach, the AI chat bot, recommending movies</sub></td>
+</tr>
+</table>
 
 <br/>
 
-## 🧭 How I work
+## How I work
 
 | | |
 | :-- | :-- |
@@ -156,7 +180,7 @@ Helps you decide what to watch tonight, by browsing or by talking to an AI assis
 
 <br/>
 
-## 📊 Activity
+## Activity
 
 <div align="center">
 
