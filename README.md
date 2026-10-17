@@ -5,6 +5,7 @@
 [![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Python+%2B+Django+in+production;APIs+that+stay+fast+under+real+data;React+%2B+TypeScript+front+ends+that+feel+instant;AI+features+wired+to+real+business+data;I+ship+it%2C+test+it%2C+and+keep+it+running)](https://github.com/AbdelrhmanAiiob)
 
 <a href="mailto:abdelrhmanaliob@gmail.com"><img src="https://img.shields.io/badge/Email-abdelrhmanaliob%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email" /></a>
+<a href="mailto:aiiob@icloud.com"><img src="https://img.shields.io/badge/Email-aiiob%40icloud.com-0f172a?style=for-the-badge&logo=icloud&logoColor=22d3ee" alt="Second email" /></a>
 <a href="https://www.linkedin.com/in/abdelrhman-aiiob-9379213a9/"><img src="https://img.shields.io/badge/LinkedIn-Abdelrhman%20Aiiob-0f172a?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn" /></a>
 <img src="https://komarev.com/ghpvc/?username=AbdelrhmanAiiob&style=for-the-badge&color=0f172a&label=PROFILE+VIEWS" alt="Profile views" />
 
