@@ -23,7 +23,8 @@ Focused on architecting scalable backend systems, designing clean APIs, and mana
 
 ### 📻 [RadioNabra](https://radionabra.com) — Dynamic Articles & Audio Streaming Platform
 > **Role:** Solo Backend & Infrastructure Lead (End-to-End Delivery)  
-> **Repository:** 🔒 *Private (Commercial Client Project under NDA)*  
+> **Client:** Radio Hassan  
+> **Repository:** 🔒 *Private (Commercial Client Project)*  
 > **Live Platform:** [radionabra.com](https://radionabra.com)
 
 A production-ready digital content platform engineered for publishing cultural articles and streaming podcasts with high availability, security, and administrative efficiency.
