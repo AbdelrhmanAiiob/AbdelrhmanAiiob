@@ -120,7 +120,7 @@ flowchart LR
 
 ### [RadioNabra](https://radionabra.com): articles and audio streaming platform
 
-> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Client:** Radio Hassan &nbsp;·&nbsp; **Repository:** private, commercial client project
+> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Repository:** private, commercial client project
 
 A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
 
