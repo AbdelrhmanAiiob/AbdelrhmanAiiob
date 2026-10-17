@@ -56,6 +56,7 @@ I build backend systems and the products on top of them. I take a project from t
 A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
 
 - **Core:** the data layer, business logic and API endpoints in **Python and Django**.
+- **Public features:** podcast episodes with an audio player, written articles, site-wide search across both, related-content suggestions, a light and dark theme, about and contact pages, and a responsive layout.
 - **Database:** a secured **PostgreSQL** production instance with strict `.env` isolation.
 - **Deployment:** **Linux VPS** with **Gunicorn** behind an **Nginx** reverse proxy.
 - **Security and uptime:** **Cloudflare** for DNS, SSL termination and traffic filtering, keeping the platform at 99.9% uptime.
@@ -83,10 +84,11 @@ A production platform for publishing cultural articles and streaming podcasts, b
 
 Helps you decide what to watch tonight, by browsing or by talking to an AI assistant.
 
-- **Data:** the **TMDB** API behind Django endpoints for discovery, search and details, cached in **Redis**.
-- **AI chat:** **Groq** and **Gemini** with fallback between providers. It understands what you do not want, supports regenerate, and works in Arabic and English.
-- **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
-- **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
+- **Discovery:** movies, TV series, anime and nostalgia (Spacetoon and 90s Arabic cartoons) on the **TMDB** API, with filters, direct search, a details view and an Arabic and English interface.
+- **Roach, the AI chat bot:** built on **Groq** and **Gemini** with fallback between providers. It understands exclusions like "nothing violent", reference titles and episode counts, keeps conversation memory per session and supports regenerate.
+- **Resilient backend:** a circuit breaker for upstream failures, stale-while-revalidate **Redis** caching with a different lifetime per content type, input sanitization, and Arabic text normalization with language detection.
+- **Learning loop:** every chat turn is logged (provider, latency, regenerate signal) so the prompts improve from real usage.
+- **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a guided first-visit tour with a help assistant, SEO page titles and a chat interface.
 
 <table>
 <tr>
@@ -148,6 +150,13 @@ flowchart LR
     D --> T[Time-tracking sync]
     T --> S
 ```
+
+**More features:**
+- Order workflow: a live board with stages and filters, a per-order timeline, a delivery screen, items orders with quantities, a client directory with bulk actions, per-order chat with resume codes, and voice notes.
+- AI assistant: creates and edits orders from chat messages and pasted screenshots, calls tools over real order data, lets you pick the model and thinking level, and has a separate mode for dispute and refund chats.
+- Shifts: clock-in sync starts, pauses and ends shifts automatically, with long-break tracking and an end-of-shift alert.
+- Money: per-order marketplace fee and profit breakdown, seller dashboards with charts, and a monthly Excel report.
+- Control: owner and employee roles, a 30-minute seller edit window with manager approval, an encrypted credentials vault with a lockout and audit log, and a guided rules tour for ten marketplaces.
 
 **Numbers:** 600+ backend tests, 100+ Playwright end-to-end tests, and query-count tests that keep N+1 queries out.
 
