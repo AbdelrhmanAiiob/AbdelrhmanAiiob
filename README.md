@@ -96,6 +96,19 @@ flowchart LR
 
 **Numbers:** 600+ backend tests, 100+ Playwright end-to-end tests, and query-count tests that keep N+1 queries out.
 
+<table>
+<tr>
+<td width="50%"><img src="assets/playerhub-board.png" alt="PlayerHub order board" /></td>
+<td width="50%"><img src="assets/playerhub-dashboard.png" alt="PlayerHub team dashboard" /></td>
+</tr>
+<tr>
+<td align="center"><sub>The live order board</sub></td>
+<td align="center"><sub>Team dashboard: profit, sales and shifts</sub></td>
+</tr>
+</table>
+
+<sub>The screenshots use demo data, not real orders.</sub>
+
 <br/>
 
 ### 📻 [RadioNabra](https://radionabra.com): articles and audio streaming platform
@@ -111,6 +124,8 @@ A production platform for publishing cultural articles and streaming podcasts, b
 - **Back office:** a custom `django-unfold` dashboard so the content team can publish without a developer.
 - **Front end:** the backend connected to the template layer, with responsive pages on mobile.
 
+<img src="assets/radionabra-home.png" alt="RadioNabra home page" width="100%" />
+
 <br/>
 
 ### 🎬 Tonight: AI movie and TV discovery &nbsp;`in progress`
@@ -123,6 +138,8 @@ Helps you decide what to watch tonight, by browsing or by talking to an AI assis
 - **AI chat:** **Groq** and **Gemini** with fallback between providers. It understands what you do not want, supports regenerate, and works in Arabic and English.
 - **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
 - **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
+
+<img src="assets/tonight-home.png" alt="Tonight home page" width="100%" />
 
 <br/>
 
