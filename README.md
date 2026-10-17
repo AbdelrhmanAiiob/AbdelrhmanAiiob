@@ -1,78 +1,151 @@
-# Hi there, I'm Abdelrhman Aiiob 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f172a,50:1d4ed8,100:06b6d4&text=Abdelrhman%20Aiiob&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=Backend%20%26%20Full-Stack%20Engineer&descSize=20&descAlignY=60&animation=fadeIn" width="100%" alt="Abdelrhman Aiiob" />
 
-**Junior BackEnd / Python & Django Developer**  
-Focused on architecting scalable backend systems, designing clean APIs, and managing production environments on Linux. Experienced in end-to-end project delivery using modern AI-assisted engineering workflows.
+<div align="center">
 
-📫 **Reach me at:** [abdelrhmanaliob@gmail.com](mailto:abdelrhmanaliob@gmail.com) | [LinkedIn](https://www.linkedin.com/in/abdelrhman-aiiob-9379213a9/) | [GitHub](https://github.com/AbdelrhmanAiiob)
+[![Typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=22D3EE&center=true&vCenter=true&width=720&lines=Python+%2B+Django+in+production;APIs+that+stay+fast+under+real+data;React+%2B+TypeScript+front+ends+that+feel+instant;AI+features+wired+to+real+business+data;I+ship+it%2C+test+it%2C+and+keep+it+running)](https://github.com/AbdelrhmanAiiob)
 
----
+<a href="mailto:abdelrhmanaliob@gmail.com"><img src="https://img.shields.io/badge/Email-abdelrhmanaliob%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/abdelrhman-aiiob-9379213a9/"><img src="https://img.shields.io/badge/LinkedIn-Abdelrhman%20Aiiob-0f172a?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn" /></a>
+<img src="https://komarev.com/ghpvc/?username=AbdelrhmanAiiob&style=for-the-badge&color=0f172a&label=PROFILE+VIEWS" alt="Profile views" />
 
-## 🛠️ Core Tech Stack & Engineering Skills
+</div>
 
-- **Backend Architecture:** Python, Django, Django REST Framework (DRF), RESTful API Design
-- **Database & Caching:** PostgreSQL (Production Tuning), Redis, SQLite (Local Testing), Data Modeling
-- **DevOps & Infrastructure:** Linux VPS, Nginx (Reverse Proxy), Gunicorn, Cloudflare (DNS, SSL & Security), Docker basics
-- **Frontend:** React, TypeScript, Vite, TanStack Query, Django Template Language (DTL), Bootstrap, Tailwind CSS, Responsive Web Design
-- **Testing & Quality:** Django test suites, Playwright end-to-end tests, query-count audits (N+1), security review
-- **AI Integration:** Gemini and Groq LLM APIs, tool calling, prompt design
-- **Tooling & Workflows:** Git & GitHub, Linux CLI, Postman, AI-Assisted Prototyping & Rapid Development
+<br/>
 
----
+## ⚡ About me
 
-## 🌟 Featured Projects
+I build backend systems and the products on top of them. I take a project from the first data model to the Linux server it runs on: the Django API, the database, the React interface, the Nginx and Cloudflare setup, and the tests that keep all of it honest.
 
-### 📻 [RadioNabra](https://radionabra.com) — Dynamic Articles & Audio Streaming Platform
-> **Role:** Solo Backend & Infrastructure Lead (End-to-End Delivery)  
-> **Client:** Radio Hassan  
-> **Repository:** 🔒 *Private (Commercial Client Project)*  
-> **Live Platform:** [radionabra.com](https://radionabra.com)
+- I work **solo end to end** on production projects for real companies and real teams.
+- I write **service-layer code with tests**, and I check query counts so a page does not quietly turn into 300 SQL calls.
+- I treat **security as part of the build**: login lockout, strict headers and CSP, input hardening, secrets kept out of git.
+- I use **AI tools in my workflow** and I also **build AI features**: LLM chat that calls tools over real data, with model and cost control.
 
-A production-ready digital content platform engineered for publishing cultural articles and streaming podcasts with high availability, security, and administrative efficiency.
+<br/>
 
-#### 🔧 Backend & System Engineering:
-- **Core Architecture:** Designed and implemented the complete data layer, business logic, and API endpoints using **Python & Django**.
-- **Production Database:** Configured and maintained a secure **PostgreSQL** production instance with strict environment variable isolation (`.env`).
-- **Linux & VPS Deployment:** Orchestrated the deployment pipeline on a **Linux VPS**, utilizing **Gunicorn** as the WSGI server and **Nginx** as a high-performance reverse proxy.
-- **Security & Availability:** Configured **Cloudflare** for DNS management, SSL termination, and automated traffic filtering to maintain 99.9% platform uptime.
-- **Admin Infrastructure:** Customized modern back-office tools (`django-unfold`) to deliver an intuitive content-management dashboard for platform creators.
+## 🧰 Stack
 
-#### ⚡ Product Delivery & AI-Assisted Prototyping:
-- **Frontend Integration:** Connected backend context directly to template layers, handling view rendering, state logic, and mobile responsiveness.
-- **Rapid Prototyping:** Leveraged **AI-assisted development tools** to accelerate UI/UX prototyping and frontend scaffolding, enabling solo full-cycle project delivery on schedule.
+<div align="center">
 
----
+<img src="https://skillicons.dev/icons?i=py,django,postgres,redis,nginx,linux,docker,cloudflare&perline=8" alt="Backend and infrastructure" />
+<br/>
+<img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,vite,html,css,playwright&perline=8" alt="Frontend and testing" />
+<br/>
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode&perline=8" alt="Tooling" />
 
-### 📦 PlayerHub — Order Tracking & Operations Platform
-> **Role:** Backend & Full-Stack Developer  
-> **Repository:** 🔒 *Private (built for a company)*
+</div>
 
-An internal platform that a small sales team uses every day to track digital-goods orders from first message to delivery, with profit, shifts and disputes handled in one place.
+| Area | What I use |
+| :-- | :-- |
+| **Backend** | Python, Django, Django REST Framework, service layers, background jobs, REST design |
+| **Data** | PostgreSQL (tuning, indexes, query audits), Redis caching, SQLite for local work |
+| **Frontend** | React, TypeScript, Vite, TanStack Query, Tailwind CSS, Django templates |
+| **Infrastructure** | Linux VPS, Nginx reverse proxy, Gunicorn, Cloudflare (DNS, SSL, security), Docker basics |
+| **AI** | Gemini and Groq APIs, tool calling, prompt and model design, provider fallback |
+| **Quality** | Django test suites, Playwright end-to-end, N+1 audits, security review |
 
-- **Backend:** **Django 6 + DRF** on **PostgreSQL** with **Redis** caching. All writes go through a service layer that records a history entry for every change, and deletes are soft.
-- **Frontend:** **React 19 + TypeScript** (Vite, TanStack Query, Tailwind) with a live order board, drawers, voice notes and a per-order chat.
-- **AI Assistant:** **Gemini on Vertex AI** with selectable models and thinking levels, tool calling over the team's own data, and a separate assistant for dispute chats.
-- **Business logic:** marketplace fee and profit breakdown per order, seller dashboards, a monthly Excel report, a client list, and a 30-minute edit window that needs manager approval afterwards.
-- **Integrations:** time-tracking sync that drives automatic shift start, pause and end, and an encrypted credentials vault.
-- **Security & Performance:** per-username login lockout, CSP and security headers on **Nginx**, Excel formula-injection protection, and query-count tests that keep N+1 problems out.
-- **Quality:** 600+ backend tests and 100+ **Playwright** end-to-end tests.
+<br/>
 
----
+## 🚀 Featured projects
 
-### 🎬 Tonight — AI Movie & TV Discovery *(in progress)*
-> **Role:** Solo Full-Stack Developer  
-> **Repository:** Local, close to release
+### 📦 PlayerHub: order tracking and operations platform
 
-A discovery app that helps people decide what to watch tonight, by browsing or by chatting with an AI assistant.
+> **Role:** Backend and full-stack developer &nbsp;·&nbsp; **Repository:** 🔒 private, built for a company
 
-- **Backend:** **Django + DRF** with endpoints for discovery, search, details and AI chat, using the **TMDB** API as the data source and **Redis** caching.
-- **AI Chat:** **Groq** and **Gemini** with fallback between providers, understanding of what the user does not want, regenerate support, and Arabic and English handling.
-- **Learning loop:** every chat turn is logged (provider, latency, regenerate signal) so the prompts can be improved from real usage.
-- **Frontend:** **React 19 + Vite + Tailwind**, with a cinematic animated background, a chat assistant and a details modal.
+A team uses it every day to follow digital-goods orders from the first message to delivery. Profit, shifts, seller performance and disputes live in one place instead of five spreadsheets and a chat app.
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 📊 Activity & Stats
+**Backend**
+- Django 6 and DRF on PostgreSQL with Redis caching
+- Every write goes through a service layer that records a history entry, and deletes are soft
+- Per-order fee and profit breakdown by marketplace
+- A 30-minute seller edit window, then manager approval
+- Time-tracking sync that starts, pauses and ends shifts automatically
+- Encrypted credentials vault
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdelrhmanAiiob&theme=radical&hide_border=true" alt="Abdelrhman's Streak Stats" />
-</p>
+</td>
+<td width="50%" valign="top">
+
+**Frontend and AI**
+- React 19 and TypeScript with TanStack Query
+- Live order board, drawers, voice notes and a chat for each order
+- Gemini on Vertex AI with selectable models and thinking levels
+- Tool calling over the team's own data, plus a separate assistant for disputes
+- Seller dashboards and a monthly Excel report
+- Guided rules tour covering ten marketplaces
+
+</td>
+</tr>
+</table>
+
+```mermaid
+flowchart LR
+    U[Team in the browser] -->|React 19 + TypeScript| N[Nginx + CSP]
+    N --> D[Django + DRF]
+    D --> S[Service layer]
+    S --> P[(PostgreSQL)]
+    S --> R[(Redis)]
+    S --> H[History log]
+    D --> G[Gemini on Vertex AI]
+    D --> T[Time-tracking sync]
+    T --> S
+```
+
+**Numbers:** 600+ backend tests, 100+ Playwright end-to-end tests, and query-count tests that keep N+1 queries out.
+
+<br/>
+
+### 📻 [RadioNabra](https://radionabra.com): articles and audio streaming platform
+
+> **Role:** Solo backend and infrastructure lead, end-to-end delivery &nbsp;·&nbsp; **Client:** Radio Hassan &nbsp;·&nbsp; **Repository:** 🔒 private, commercial client project
+
+A production platform for publishing cultural articles and streaming podcasts, built for availability, security and an easy back office.
+
+- **Core:** the data layer, business logic and API endpoints in **Python and Django**.
+- **Database:** a secured **PostgreSQL** production instance with strict `.env` isolation.
+- **Deployment:** **Linux VPS** with **Gunicorn** behind an **Nginx** reverse proxy.
+- **Security and uptime:** **Cloudflare** for DNS, SSL termination and traffic filtering, keeping the platform at 99.9% uptime.
+- **Back office:** a custom `django-unfold` dashboard so the content team can publish without a developer.
+- **Front end:** the backend connected to the template layer, with responsive pages on mobile.
+
+<br/>
+
+### 🎬 Tonight: AI movie and TV discovery &nbsp;`in progress`
+
+> **Role:** Solo full-stack developer &nbsp;·&nbsp; **Status:** close to release
+
+Helps you decide what to watch tonight, by browsing or by talking to an AI assistant.
+
+- **Data:** the **TMDB** API behind Django endpoints for discovery, search and details, cached in **Redis**.
+- **AI chat:** **Groq** and **Gemini** with fallback between providers. It understands what you do not want, supports regenerate, and works in Arabic and English.
+- **Learning loop:** every chat turn is logged with provider, latency and regenerate signal, so the prompts improve from real usage.
+- **Interface:** **React 19, Vite and Tailwind** with an animated cinematic background, a chat assistant and a details modal.
+
+<br/>
+
+## 🧭 How I work
+
+| | |
+| :-- | :-- |
+| **Simple first** | The smallest version that works end to end, then layers on top of it. |
+| **Tested** | A change is finished when the tests pass, not when it compiles. |
+| **Measured** | I look at query counts and bundle sizes before I call something fast. |
+| **Safe by default** | Secrets in `.env`, hardened inputs, strict headers, rate limits on login. |
+| **Readable** | Code that the next person can follow without asking me. |
+
+<br/>
+
+## 📊 Activity
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AbdelrhmanAiiob&theme=radical&hide_border=true" alt="GitHub streak" />
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:06b6d4,50:1d4ed8,100:0f172a&section=footer" width="100%" alt="" />
