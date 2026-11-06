@@ -42,7 +42,7 @@ I build backend systems and the products on top of them. I take a project from t
 | **Data** | PostgreSQL (tuning, indexes, query audits), Redis caching, SQLite for local work |
 | **Frontend** | React, TypeScript, Vite, TanStack Query, Tailwind CSS, Django templates |
 | **Infrastructure** | Linux VPS, Nginx reverse proxy, Gunicorn, Cloudflare (DNS, SSL, security), Docker basics |
-| **AI** | Gemini and Groq APIs, tool calling, prompt and model design, provider fallback |
+| **AI** | Claude (Anthropic), Gemini and Groq APIs, tool calling, structured output, prompt and model design, provider fallback |
 | **Quality** | Django test suites, Playwright end-to-end, N+1 audits, security review |
 
 <br/>
@@ -120,7 +120,8 @@ A team uses it every day to follow digital-goods orders from the first message t
 - Every write goes through a service layer that records a history entry, and deletes are soft
 - Per-order fee and profit breakdown by marketplace
 - A 30-minute seller edit window, then manager approval
-- Time-tracking sync that starts, pauses and ends shifts automatically
+- Time-tracking sync that starts, pauses and ends shifts automatically, within seconds
+- A six-part share of the team per seller, daily and weekly bonuses with manager review, and monthly payroll
 - Encrypted credentials vault
 
 </td>
@@ -129,9 +130,9 @@ A team uses it every day to follow digital-goods orders from the first message t
 **Frontend and AI**
 - React 19 and TypeScript with TanStack Query
 - Live order board, drawers, voice notes and a chat for each order
-- Gemini on Vertex AI with selectable models and thinking levels
+- Claude Haiku 5.5 for the assistant, Gemini on Vertex AI for voice, switchable with one setting
 - Tool calling over the team's own data, plus a separate assistant for disputes
-- Seller dashboards and a monthly Excel report
+- Dashboards for any date range, with every fee and every part of a share shown step by step
 - Guided rules tour covering ten marketplaces
 
 </td>
@@ -146,19 +147,20 @@ flowchart LR
     S --> P[(PostgreSQL)]
     S --> R[(Redis)]
     S --> H[History log]
-    D --> G[Gemini on Vertex AI]
+    D --> C[Claude Haiku 5.5]
+    D --> G[Gemini on Vertex AI: voice]
     D --> T[Time-tracking sync]
     T --> S
 ```
 
 **More features:**
 - Order workflow: a live board with stages and filters, a per-order timeline, a delivery screen, items orders with quantities, a client directory with bulk actions, per-order chat with resume codes, and voice notes.
-- AI assistant: creates and edits orders from chat messages and pasted screenshots, calls tools over real order data, lets you pick the model and thinking level, and has a separate mode for dispute and refund chats.
+- AI assistant: creates and edits orders from chat messages and pasted screenshots, fills purchases and extra buyer payments from a screenshot or text, calls tools over real order data with every change confirmed first, and has a separate mode for dispute and refund chats. It runs on Claude, with Gemini for voice notes and as a fallback.
 - Shifts: clock-in sync starts, pauses and ends shifts automatically, with long-break tracking and an end-of-shift alert.
-- Money: per-order marketplace fee and profit breakdown, seller dashboards with charts, and a monthly Excel report.
+- Money: per-order marketplace fee and profit breakdown, extra payments on one order, dashboards for any day, month or range filtered by shift, a closing and review page that ranks the sellers, and Excel exports in the accountant's own layout.
 - Control: owner and employee roles, a 30-minute seller edit window with manager approval, an encrypted credentials vault with a lockout and audit log, and a guided rules tour for ten marketplaces.
 
-**Numbers:** 600+ backend tests, 100+ Playwright end-to-end tests, and query-count tests that keep N+1 queries out.
+**Tested:** backend tests for every rule, Playwright end-to-end tests on desktop and phone, and query-count tests that keep N+1 queries out.
 
 <table>
 <tr>
